@@ -45,7 +45,6 @@ const TicketReducer = (store = initialState, action) => {
         filtredTickets: store.allTickets.filter((ticket) => {
           const departueStops = ticket.segments[0].stops.length;
           const arrivalStops = ticket.segments[1].stops.length;
-          console.log(action.payload);
           return action.payload[departueStops] && action.payload[arrivalStops];
         }),
       };
