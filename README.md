@@ -1,5 +1,5 @@
-# Welcome to Ticket issuance page!
-Ticket issuance page aviasales test API. On this page you can *apply filters* and *sort* the selection.  <a href="https://aviasales-test-task-172ec.web.app/" target="_blank"/>Online demo link<a/>
+# Welcome to Ticket selection page!
+Ticket selection page aviasales test API. On this page you can *apply filters* and *sort* the selection.  <a href="https://aviasales-test-task-172ec.web.app/" target="_blank"/>Online demo link<a/>
 ## General Info
  - React
  - Redux, react-redux, redux-thunk
@@ -10,4 +10,4 @@ Ticket issuance page aviasales test API. On this page you can *apply filters* an
 # In Future
 - Add testing 
 - Optimization of work with data
--  Improve the mechanism for selecting optimal tickets
+- Improve the mechanism for selecting optimal tickets
