@@ -1,43 +1,22 @@
+@import "../../root.css";
 .tabs {
   height: 50px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: #fff;
-  border-radius: 5px;
   overflow: hidden;
   user-select: none;
 }
 .tabs__button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
   font-size: 12px;
   line-height: 20px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  color: #4a4a4a;
   border: 1px solid #dfe5ec;
-  box-sizing: border-box;
 }
-.radio-btns {
-  display: flex;
-  width: 100%;
-  height: 100%;
-}
+
 .radio-btns__input {
   display: none;
 }
 .radio-btns__input:checked ~ .radio-btns__label {
-  background-color: #2196f3;
+  background-color: var(--success-color);
   color: #fff;
-}
-.radio-btns__label {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
 }

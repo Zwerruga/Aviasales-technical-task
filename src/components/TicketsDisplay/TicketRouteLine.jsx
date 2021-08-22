@@ -17,7 +17,7 @@ export default memo(function TicketRouteLine({
     .format("mm")}м`;
 
   return (
-    <div className="route-line">
+    <div className="route-line d-flex aling-it-cnt">
       <TicketRouteLineItem
         upper={route}
         lower={`${departueTime}-${arrivalTime}`}

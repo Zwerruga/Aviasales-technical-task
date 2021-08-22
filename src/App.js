@@ -29,10 +29,10 @@ function App() {
 
   return (
     <div className="App">
-      <header className="logo">
+      <header className="logo d-flex jus-cont-cnt w-100 over-hidden">
         <Logo />
       </header>
-      <main className="main-container">
+      <main className="main-container d-flex jus-cont-cnt">
         <section className="main-container__left-section">
           <Filter />
         </section>

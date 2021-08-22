@@ -9,7 +9,7 @@ export default memo(function Tab({
 }) {
   const id = v4();
   return (
-    <div className="tabs__button radio-btns">
+    <div className="tabs__button radio-btns d-flex aling-it-cnt jus-cont-cnt font-w-600 color-text-main box-border w-100 h-100">
       <input
         id={id}
         type="radio"
@@ -18,7 +18,10 @@ export default memo(function Tab({
         checked={curChecked === value}
         onChange={onChange}
       />
-      <label className="radio-btns__label" htmlFor={id}>
+      <label
+        className="radio-btns__label d-flex aling-it-cnt jus-cont-cnt w-100 h-100"
+        htmlFor={id}
+      >
         {label}
       </label>
     </div>

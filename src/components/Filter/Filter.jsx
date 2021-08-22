@@ -36,8 +36,10 @@ export default memo(function Filter() {
     }
   };
   return (
-    <div className="filter">
-      <p className="filter__title">Количество пересадок</p>
+    <div className="filter bg">
+      <p className="filter__title font-w-600 color-text-main ">
+        Количество пересадок
+      </p>
       <Checkbox
         label="Все"
         value={"all"}

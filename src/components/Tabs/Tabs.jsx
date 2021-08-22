@@ -15,7 +15,7 @@ export default memo(function Tabs() {
     setChecked(e.target.value);
   };
   return (
-    <div className="tabs">
+    <div className="tabs w-100 d-flex aling-it-cnt jus-cont-sp-bt main-br">
       <Tab
         label="Самый дешевый"
         curChecked={checked}

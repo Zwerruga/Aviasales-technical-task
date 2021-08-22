@@ -18,8 +18,11 @@ export default memo(function Checkbox({
         onChange={onChange}
         value={value}
       />
-      <label className="checkbox__label" htmlFor={id}>
-        <div className="checkbox__form">
+      <label
+        className="checkbox__label d-flex aling-it-cnt color-text-main w-100"
+        htmlFor={id}
+      >
+        <div className="checkbox__form d-flex aling-it-cnt jus-cont-cnt box-border">
           <div className="checkbox__shape">
             <svg
               width="12"
